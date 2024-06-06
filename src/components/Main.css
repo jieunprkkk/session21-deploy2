@@ -1,0 +1,107 @@
+.main-container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Noto Serif KR", serif;
+    text-align: center;
+    background-image: url('/public/background.jpg');
+  }
+  
+  .main-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+
+  }
+  
+  .post-form {
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f9f9f9;
+  }
+  
+  .form-title {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+  
+  .form-image-input {
+    margin-bottom: 10px;
+  }
+  
+  .form-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-button:hover {
+    background-color: black;
+  }
+  
+  /* 게시글 목록 스타일 */
+  .posts {
+    margin-top: 20px;
+  }
+  
+  .posts-title {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  
+  .post {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  
+  .post-title {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .post-content {
+    margin-bottom: 10px;
+  }
+  
+  .post-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .post-image {
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .post-link {
+    color: black;
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+  }
+  
+  .post-link:hover {
+    text-decoration: underline;
+  }
+  
